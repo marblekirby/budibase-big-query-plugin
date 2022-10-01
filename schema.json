@@ -1,0 +1,50 @@
+{
+  "type": "datasource",
+  "metadata": {},
+  "schema":{
+    "friendlyName": "Big Query",
+    "type": "Relational",
+    "description": "Google Big Query integration",
+    "datasource": {
+      "clientEmail": {
+        "display": "Email",
+        "type": "string",
+        "required": true
+      },
+      "privateKey": {
+        "display": "Private Key",
+        "type": "string",
+        "required": true
+      },
+      "gcpProjectId": {
+        "display": "GCP Project ID",
+        "type": "string",
+        "required": true
+      },
+      "bqDatasetId": {
+        "display": "BQ Dataset ID",
+        "type": "string",
+        "required": true
+      },
+      "bqDatasetLocation": {
+        "display": "BQ Dataset Location",
+        "type": "string",
+        "required": true
+      }
+    },
+    "query": {
+      "create": {
+        "type": "sql"
+      },
+      "read": {
+        "type": "sql"
+      },
+      "update": {
+        "type": "JSON"
+      },
+      "delete": {
+        "type": "JSON"
+      }
+    }
+  }
+}
