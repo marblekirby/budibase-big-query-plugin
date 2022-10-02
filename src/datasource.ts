@@ -68,11 +68,11 @@ class CustomIntegration implements IntegrationBase {
   }
 
   async create(query: { sql: string }) {
-    return await this.executeQuery(query);
+    return await this.executeCommand(query);
   }
 
   async read(query: { sql: string }) {
-    return await this.executeCommand(query);
+    return await this.executeQuery(query);
   }
 
   async update(query: { sql: string }) {
