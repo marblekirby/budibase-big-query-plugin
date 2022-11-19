@@ -1,10 +1,11 @@
-# Test
-This is a readme for your new Budibase plugin.
+# Budibase big-query-plugin
 
 # Description
-An amazing Budibase datasource!
+
+
 
 Find out more about [Budibase](https://github.com/Budibase/budibase).
+
 
 ## Instructions
 
