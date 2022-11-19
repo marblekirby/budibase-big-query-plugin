@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "budibase-big-query-plguin",
   "version": "1.0.0",
   "description": "An amazing Budibase datasource!",
   "main": "src/index.ts",

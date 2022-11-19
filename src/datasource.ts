@@ -6,7 +6,7 @@ interface Query {
   statement: string
 }
 
-class CustomIntegration implements IntegrationBase {
+class BigQueryIntegration implements IntegrationBase {
   // private readonly credentialsFilePath: string
   private readonly clientEmail: string;
   private readonly privateKey: string;
@@ -84,4 +84,4 @@ class CustomIntegration implements IntegrationBase {
   }
 }
 
-export default CustomIntegration
+export default BigQueryIntegration
