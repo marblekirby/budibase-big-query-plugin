@@ -1,4 +1,4 @@
-import { IntegrationBase } from "@budibase/types"
+import { IntegrationBase } from "@budibase/types";
 
 import { BigQuery } from '@google-cloud/bigquery';
 
