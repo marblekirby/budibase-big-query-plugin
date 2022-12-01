@@ -40,8 +40,7 @@ const hash = () => ({
     });
 
     fileBuffer = fileBuffer.replace('string_decoder/', 'string_decoder');
-
-    fs.writeFileSync('dist/plugin.min.js', fileBuffer )
+    fs.writeFileSync('dist/plugin.min.js', fileBuffer );
 
     const hashSum = crypto.createHash("sha1")
     hashSum.update(fileBuffer)
@@ -113,6 +112,7 @@ export default {
     }),
     commonjs(),
     json(),
+    terser(),
     copy({
       assets,
     }),
