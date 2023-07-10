@@ -9,7 +9,19 @@ Find out more about [Budibase](https://github.com/Budibase/budibase).
 
 ## Installation
 
-//todo 
+See [official documents] for the installation instructions.
+
+Once installed, you'll see bigquery as a new data source.
+
+Create a service account in Google Cloud and provide sufficient permission.
+
+In budibase, you need to enter
+
+ - email of service account
+ - private key
+ - GCP project ID
+ - BigQuery dataset ID and dataset location
+
 
 ## Development Instructions
 
